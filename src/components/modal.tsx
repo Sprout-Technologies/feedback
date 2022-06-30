@@ -55,7 +55,6 @@ export default function FeedbackModal({
               name="email"
               placeholder="Email"
               value={formUser}
-              required
               onChange={(event: React.ChangeEvent) =>
                 onChangeFormUser((event.target as HTMLInputElement).value)
               }
