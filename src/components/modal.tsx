@@ -53,7 +53,7 @@ export default function FeedbackModal({
               className="feedback-widget-form-control"
               type="email"
               name="email"
-              placeholder="Email"
+              placeholder="Email (optional)"
               value={formUser}
               onChange={(event: React.ChangeEvent) =>
                 onChangeFormUser((event.target as HTMLInputElement).value)
@@ -114,6 +114,11 @@ export default function FeedbackModal({
           >
             Send
           </button>
+        </div>
+        <div style={{ marginTop: 20, fontSize: "0.9em" }}>
+          <a href="https://discord.gg/WWdc59WayG" target="_blank">
+            Join our discord
+          </a>
         </div>
       </form>
     </div>
