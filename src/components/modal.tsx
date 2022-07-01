@@ -115,7 +115,7 @@ export default function FeedbackModal({
             Send
           </button>
         </div>
-        <div style={{ marginTop: 20, fontSize: "0.9em" }}>
+        <div style={{ marginTop: 20, fontSize: "0.9em", textAlign: "center" }}>
           <a href="https://discord.gg/WWdc59WayG" target="_blank">
             Join our discord
           </a>

@@ -373,7 +373,7 @@ function FeedbackModal({
     type: "submit",
     disabled: isSending
   }, "Send")), /* @__PURE__ */ import_react6.default.createElement("div", {
-    style: { marginTop: 20, fontSize: "0.9em" }
+    style: { marginTop: 20, fontSize: "0.9em", textAlign: "center" }
   }, /* @__PURE__ */ import_react6.default.createElement("a", {
     href: "https://discord.gg/WWdc59WayG",
     target: "_blank"
