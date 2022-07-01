@@ -6,7 +6,6 @@ public/workbox*
 .DS_Store
 out/
 .vercel
-dist/
 
 # Secret Environments
 .env.prod
