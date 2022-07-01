@@ -290,7 +290,7 @@ function FeedbackModal({
     className: "feedback-widget-form-control",
     type: "email",
     name: "email",
-    placeholder: "Email",
+    placeholder: "Email (optional)",
     value: formUser,
     onChange: (event) => onChangeFormUser(event.target.value)
   })), ["full", "form"].includes(type) && /* @__PURE__ */ React6.createElement("div", null, /* @__PURE__ */ React6.createElement("textarea", {
@@ -325,7 +325,12 @@ function FeedbackModal({
     className: "feedback-widget-form-control",
     type: "submit",
     disabled: isSending
-  }, "Send"))));
+  }, "Send")), /* @__PURE__ */ React6.createElement("div", {
+    style: { marginTop: 20, fontSize: "0.9em" }
+  }, /* @__PURE__ */ React6.createElement("a", {
+    href: "https://discord.gg/WWdc59WayG",
+    target: "_blank"
+  }, "Join our discord"))));
 }
 
 // src/components/trigger-button.tsx
